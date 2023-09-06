@@ -79,6 +79,7 @@ public class CustomerMapper {
                 .type(customer.getType())
                 .fullName(customer.getFullName())
                 .mainDocument(customer.getMainDocument())
+                .active(customer.isActive())
                 .build();
     }
 

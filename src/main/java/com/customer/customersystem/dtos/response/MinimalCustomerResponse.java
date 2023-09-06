@@ -16,4 +16,6 @@ public class MinimalCustomerResponse {
 
     private String mainDocument;
 
+    private boolean active;
+
 }
